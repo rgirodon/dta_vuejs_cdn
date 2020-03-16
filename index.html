@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Vue.js Hello World</title>        
+                
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            
+            <h1>{{ message }}</h1>
+            
+        </div>
+        
+        <script type="text/javascript">
+        
+            let vueInstance = new Vue({	
+                el: '#app',
+                data: {
+                    message: 'Hello World !'
+                }
+            });
+            
+        </script>
+        
+    </body>
+</html>
